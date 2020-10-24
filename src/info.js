@@ -39,6 +39,10 @@ export default class Info {
   static isFalse() {
     return false;
   }
+  
+  static isArray(theValueWhoseArraynessIsInQuestionWillThisBeTheOne) {
+    return Array.isArray(theValueWhoseArraynessIsInQuestionWillThisBeTheOne);
+  }
 
   /**
    * Converts the input into a {@link Zone} instance.
