@@ -31,6 +31,10 @@ export default class Info {
   static isValidIANAZone(zone) {
     return !!IANAZone.isValidSpecifier(zone) && IANAZone.isValidZone(zone);
   }
+  
+  static isTrue() {
+    return true;
+  }
 
   /**
    * Converts the input into a {@link Zone} instance.
