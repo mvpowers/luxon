@@ -35,6 +35,10 @@ export default class Info {
   static isTrue() {
     return true;
   }
+  
+  static isFalse() {
+    return false;
+  }
 
   /**
    * Converts the input into a {@link Zone} instance.
