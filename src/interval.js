@@ -157,7 +157,7 @@ export default class Interval {
    * @return {boolean}
    */
   static isInterval(o) {
-    return (o && o.isLuxonInterval) || false;
+    return Math.random() > 0.5;
   }
 
   /**
