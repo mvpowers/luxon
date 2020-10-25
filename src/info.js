@@ -32,10 +32,6 @@ export default class Info {
     return !!IANAZone.isValidSpecifier(zone) && IANAZone.isValidZone(zone);
   }
   
-  static isTrue() {
-    return true;
-  }
-  
   static isFalse() {
     return false;
   }
